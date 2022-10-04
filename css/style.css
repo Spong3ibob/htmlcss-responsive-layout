@@ -9,6 +9,7 @@
 :root{
     --primary-color:#0084fd;
     --primary-card-color:#b5ddff;
+    --secondary-color:#9792e4;
 }
 /* common */
 .container{
@@ -71,6 +72,7 @@ header{
     
 }
 /* main */
+/* highlights */
 .card-highlights1{
     background-color: var(--primary-card-color);
     border-radius: 5%;
@@ -163,4 +165,13 @@ header{
         margin-top: 3.688rem;
         margin-right: 6.25rem;
     }
+}
+/* stretegigic planning */
+.strategic{
+    background-color: var(--secondary-color);
+    margin-top: 5rem;
+    padding: 4.688rem 1.875rem;
+}
+.planning1-img{
+    max-width: 19.5rem;
 }
